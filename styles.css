@@ -17,7 +17,7 @@ body {
 .smallbox {
 width: 306px;
 height: 838px;
-background-color: blue;
+background-color: #ffffff;
 flex-wrap: wrap;
 column-gap: 10;
 flex-direction: column;
@@ -29,6 +29,18 @@ position: ;
 top: 0px;
 left: 0px;
 box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+}
+
+.bluebox {
+    margin-bottom: 2px;
+    margin-top: 200px;
+}
+
+.vector {
+    margin-left: 50px;
+}
+.aveno {
+    margin-left: 20px;
 }
 .bigbox .title {
     width: 15%;
@@ -53,9 +65,10 @@ box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
     justify-content: space-between;
     align-items: center;
 }
-.names {
+img .names {
     display: flex;
-    gap: 8px;
+    gap: 100px;
+    justify-content: space-between;
 }
 .title-search {
     display: flex;
@@ -96,6 +109,13 @@ box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
     margin: 90px;
     margin-right: 1000px;
     padding-right: 50px;
+
+    span {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
     
     
     
